@@ -46,9 +46,9 @@ const Teams = [
 export const AcmTeams = () => {
   const text = "< ACM.teams />"
   return (
-    <section className="h-screen flex flex-col items-center justify-around py-20">
+    <section className="h-auto md:h-screen w-full flex flex-col items-center justify-around py-20">
       <h2>{text}</h2>
-      <div className="flex flex-col md:flex-row justify-between items-center">
+      <div className="w-full flex flex-wrap flex-col md:flex-row justify-between items-center gap-x-2 gap-y-6">
         {Teams.map((team, index) => {
           return (
             <ArticlesTeams key={index} color={team.color} content={team.content} links={team.links}>
