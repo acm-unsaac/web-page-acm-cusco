@@ -9,7 +9,7 @@ const NavigationItem = ({ valor, subItems }) => {
     <div className="relative ">
       <a
         href="#"
-        className="flex text-xl font-Opensans items-center gap-1 text-white-azul border-b-2 border-azul-git hover:border-blue transition duration-300"
+        className="flex text-xl font-Opensans items-center gap-1 text-white-azul border-b-2 border-azul-git border-opacity-0 hover:border-blue hover:border-opacity-100 transition duration-300"
         onClick={() => setItemOpen(!itemOpen)}
       >
         {valor}
