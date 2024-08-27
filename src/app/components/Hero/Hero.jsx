@@ -5,9 +5,14 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between mt-52">
+    <div className="flex justify-between items-center">
       {/* Redes sociales */}
-      <SocialMedia />
+      <Image
+        src="/lateral-vertical-line.svg"
+        alt="Line"
+        width={140}
+        height={450}
+      />
       {/* Parte principal */}
       <div className="flex justify-center items-center">
         <HeroText />
