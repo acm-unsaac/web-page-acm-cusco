@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -26,6 +29,7 @@ module.exports = {
         rojo: "#FA114F",
         verde: "#A6FF00",
         blue: "#0A84FF",
+        gris2: "#646464",
       },
     },
   },
