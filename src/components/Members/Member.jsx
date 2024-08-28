@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Member = ({ name, position, img }) => {
   return (
-    <div className="flex items-center gap-4 w-auto bg-[#0F1317] py-1 px-2 w-[266px] rounded-[8px] drop-shadow-[0_0_0.3rem_#00030770]">
+    <div className="flex items-center gap-4 bg-[#0F1317] py-1 px-2 w-[286px] rounded-[8px] drop-shadow-[0_0_0.3rem_#000307] transition-all duration-300 hover:drop-shadow-[0_0_0.3rem_#0A84FF]">
       <div>
         <Image
           className="rounded-full border border-[#0A84FF] h-[50px] w-[50px] object-cover"
