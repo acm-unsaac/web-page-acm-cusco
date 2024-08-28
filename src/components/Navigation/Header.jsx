@@ -2,7 +2,7 @@ import MainNavigation from "./MainNavigation";
 import Button from "./Button";
 import Logo from "./Logo";
 
-import styles from "../../styles/Navigation.module.css";
+import styles from "../../app/styles/Navigation.module.css";
 
 const Header = () => {
   return (
