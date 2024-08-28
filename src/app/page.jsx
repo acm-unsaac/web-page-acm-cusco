@@ -1,6 +1,6 @@
 import Header from "../components/Navigation/Header";
 import Hero from "../components/Hero/Hero";
-import About from "./components/About/About";
+import About from "../components/About/About";
 import AcmTeams from "../components/AcmTeams";
 import MembersSection from "../components/Members";
 
