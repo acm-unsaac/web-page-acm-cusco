@@ -1,3 +1,4 @@
+import H2 from "../common/H2"
 import { BrainSvg } from "../Svgs/BrainSvg"
 import { CupSvg } from "../Svgs/CupSvg"
 import { PcSvg } from "../Svgs/PcSvg"
@@ -43,11 +44,10 @@ const Teams = [
 ]
 
 
-export const AcmTeams = () => {
-  const text = "< ACM.teams />"
+const AcmTeams = () => {
   return (
-    <section className="h-auto md:h-screen w-full flex flex-col items-center justify-around py-20">
-      <h2>{text}</h2>
+    <section className="h-auto md:h-[90vh] w-auto flex flex-col items-center justify-around py-20 md:mx-28 text-white-azul">
+      <H2 title="teams" />
       <div className="w-full flex flex-wrap flex-col md:flex-row justify-between items-center gap-x-2 gap-y-6">
         {Teams.map((team, index) => {
           return (
@@ -62,3 +62,5 @@ export const AcmTeams = () => {
     </section>
   )
 }
+
+export default AcmTeams;

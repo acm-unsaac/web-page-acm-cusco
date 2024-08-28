@@ -34,12 +34,12 @@ const MembersList = [
   },
 ];
 
-export const MembersSection = () => {
+const MembersSection = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-between py-12 gap-6 w-full">
+    <section className="flex flex-col lg:flex-row items-center justify-between py-12 gap-6 w-auto md:mx-28 text-white-azul">
       <div>
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+          className="relative hover:drop-shadow-[0_0_0.3rem_#ffffff70] transition-all duration-300"
           src="/AcmLogo.png"
           alt="ACM Logo"
           width={224}
@@ -54,3 +54,5 @@ export const MembersSection = () => {
     </section>
   )
 }
+
+export default MembersSection;
