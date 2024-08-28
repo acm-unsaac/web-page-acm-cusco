@@ -1,5 +1,7 @@
-import Header from "./components/Navigation/Header";
-import Hero from "./components/Hero/Hero";
+import Header from "../components/Navigation/Header";
+import Hero from "../components/Hero/Hero";
+import AcmTeams from "../components/AcmTeams";
+import MembersSection from "../components/Members";
 
 export default function Home() {
   return (
@@ -7,7 +9,7 @@ export default function Home() {
       {/*Header principal*/}
 
       <div className="flex justify-center bg-azul-git">
-        <div className="h-[1000px] w-[1400px]">
+        <div className="h-auto w-[1400px] px-4">
           <Header />
           <Hero />
           <AcmTeams />
