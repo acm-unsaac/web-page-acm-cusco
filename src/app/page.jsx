@@ -1,5 +1,6 @@
 import Header from "../components/Navigation/Header";
 import Hero from "../components/Hero/Hero";
+import About from "./components/About/About";
 import AcmTeams from "../components/AcmTeams";
 import MembersSection from "../components/Members";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <div className="h-auto w-[1400px] px-4">
           <Header />
           <Hero />
+          <About />
           <AcmTeams />
           <MembersSection />
         </div>

@@ -6,13 +6,13 @@ import { FaLaptopCode } from "react-icons/fa";
 const OptionsBoxNavItem = ({ opciones, isVisible }) => {
   const ICONS = {
     trophy: (
-      <FaTrophy className="group-hover:text-rojo transition ease-in-out duration-700" />
+      <FaTrophy className="group-hover:text-rojo transition ease-in-out duration-300" />
     ),
     brain: (
-      <FaBrain className="group-hover:text-cyan transition ease-in-out duration-700" />
+      <FaBrain className="group-hover:text-cyan transition ease-in-out duration-300" />
     ),
     computer: (
-      <FaLaptopCode className="group-hover:text-verde transition ease-in-out duration-700" />
+      <FaLaptopCode className="group-hover:text-verde transition ease-in-out duration-300" />
     ),
   };
 
