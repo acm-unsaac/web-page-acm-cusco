@@ -22,12 +22,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -79,18 +76,23 @@ body {
   0% {
     transform: translateX(0) rotate(45deg);
   }
+
   20% {
     transform: translateX(10px) rotate(45deg);
   }
+
   40% {
     transform: translateX(7px) rotate(45deg);
   }
+
   60% {
     transform: translateX(10px) rotate(45deg);
   }
+
   80% {
     transform: translateX(8px) rotate(45deg);
   }
+
   100% {
     transform: translateX(10px) rotate(45deg);
   }
@@ -100,20 +102,25 @@ body {
   0% {
     transform: translateX(0);
   }
+
   50% {
     transform: translateX(-14px);
   }
+
   100% {
     transform: translateX(-10px);
   }
 }
+
 @keyframes outTestRombo {
   0% {
     transform: translateX(10px) rotate(45deg);
   }
+
   50% {
     transform: translateX(-4px) rotate(45deg);
   }
+
   100% {
     transform: translateX(0px) rotate(45deg);
   }
@@ -123,15 +130,19 @@ body {
   0% {
     transform: translateX(-6px) rotate(45deg);
   }
+
   25% {
     transform: translateX(4px) rotate(45deg);
   }
+
   50% {
     transform: translateX(0px) rotate(45deg);
   }
+
   75% {
     transform: translateX(5px) rotate(45deg);
   }
+
   100% {
     transform: translateX(0px) rotate(45deg);
   }
@@ -141,4 +152,10 @@ body {
 .glow:hover {
   filter: drop-shadow(0px 0px 10px rgba(10, 132, 255, 0.5));
   scale: 110%;
+}
+
+
+/* AcmTeams hover */
+.acmTeams_hover:hover {
+  filter: drop-shadow(0 0 0.7rem var(--hover-color));
 }
